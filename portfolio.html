@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyansh </title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Hi, I'm <span>Divyansh</span></h2>
+        <p>Engineering student & aspiring developer passionate about creating interactive projects and web pages .</p>
+    </section>
+
+    <section id="about">
+         <h3 class="sectiontitle">About Me</h3>
+         <div class="aboutcontent">
+            <p>
+                Hello! I'm an Engineering student who loves to built clean and creative projrcts. I like creating websites and exploring new ideas in coding. I’m a curious learner who loves working with computers and solving problems.
+            </p>
+         </div>
+    </section>
+    <section id="projects">
+        <h3 class="sectiontitle">Projects</h3>
+        <div class="projectsgrid">
+            <div class="projectcard">
+                <h4>Portfolio website </h4>
+                <p>A modern personal portfolio built with HTML, CSS, JavaScript</p>
+            </div>
+            <div class="projectcard">
+                <h4>Currency Converter</h4>
+                <p>A project based on c++ code use to convert the amount of different Currency</p>
+            </div>
+            <div class="projectcard">
+                <h4> Room Temperature Based Fan Conroller</h4>
+                <p>A electronics project which conrol the speed of DC fan according to room Temperature</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h3 class="sectiontitle">SKILLS</h3>
+        <div class="projectsgrid">
+            <div class="projectcard">
+                <h4>c++</h4>
+            </div>
+            <div class="projectcard">
+                <h4>Web development</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+       <h3 class="sectiontitle">Contact Me</h3>
+       <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+       </form>
+    </section>
+
+    <footer>
+         © 2025 Divyansh | Built with ❤ and JavaScript
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
